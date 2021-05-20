@@ -1,0 +1,73 @@
+/* default speed animation */
+$value_speed:										0.2s;
+
+/*
+	Global Settings
+*/
+/* Font Family*/
+$default_font:										'Inter', sans-serif;
+$default_font2:										'Mulish', sans-serif;
+$default_font3:										'Raleway', sans-serif;
+/* font icon*/
+$default_font_icon:									'font-icon';
+/* Global Color */
+$default_bg_color:									#ffffff;
+$default_text_color:								#6c7176;
+/* Colors */
+$default_color:										#0c4c93;
+$default_color2:									#51acfb;
+$default_color3:									#1e60aa;
+$default_color4:									#ff4917;
+$shadow_color1:										0px 10px 30px rgba(26, 54, 85, 0.15);
+$shadow_color2:										0px 5px 10px rgba(30, 96, 170, 0.2);
+$shadow_color3:										0px 10px 30px rgba(26, 54, 85, 0.07); // blog aside layout
+/* radius */
+$radius:											0px;
+$border:											#eeeef2;
+
+
+
+/* title */
+$default_title:										$default_color2;
+$sections_title_colortext:							$default_title;
+$sections_title_colorLink:							$default_title;
+
+/* button */
+$btn_colorbg:										transparent;
+$btn_colortext:										#0c4c93;
+$btn_colorbg_hover:									#0c4c93;
+$btn_colortext_hover:								#ffffff;
+
+
+/*
+	Form Default
+*/
+$form__height:										40px;
+$form__height_mobile:								39px;
+$form_control_bg:									#f7f8fa;
+$form_control_text:									$default_text_color;
+$form_control_border:								#f7f8fa;
+
+
+
+/*
+	Footer
+*/
+$breakpoint_desktop:								790px;
+$breakpoint_mobile:									789px;
+
+$f_social_icon:										$default_color2;
+$f_social_icon_hover:								$default_color;
+
+/*
+	Button Back To Top
+*/
+$backToTop_desctope_bg:								rgba($default_color, 0.75);
+$backToTop_desctope_bg_hover:						rgba(48, 48, 48, 1);
+$backToTop_desctope_text:							#ffffff;
+$backToTop_desctope_text_hover:						#ffffff;
+$backToTop_mobile_bg:								#ffffff;
+$backToTop_mobile_bg_hover:							#ffffff;
+$backToTop_mobile_text:								$default_color2;
+$backToTop_mobile_text_hover:						$default_color;
+

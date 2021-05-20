@@ -1,0 +1,96 @@
+/*---------------------------------------*/
+/*--------   Table of contents   --------*/
+/*---------------------------------------*/
+/*
+1. Additional styles
+	1.1 variables
+	1.2 Bootstrap
+	1.3 Typography
+	1.4 External Module
+2. Header
+3. Sections Layout
+4. Footer
+5. Additional Modules
+	5.1 Modal
+	5.1 Back To Top
+---------------------------------------*/
+
+/*---------------------------------------*/
+/*--------   1. Additional styles  --------*/
+/*---------------------------------------*/
+/*-------  1.1 variables  --------*/
+@import "_variables_bootstrap.scss";
+@import "_variables_style.scss";
+/*-------  1.2 Bootstrap  --------*/
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+// Layout & components
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid.scss";
+/*-------  1.3 Typography  --------*/
+@import "typography/typography.scss";
+/*------  1.4 External Module  --------*/
+@import "../external/flatpickr/flatpickr.min.scss";
+@import "../external/perfect-scrollbar/perfect-scrollbar.scss";
+@import "../external/glightbox/glightbox.scss";
+/*---------------------------------------*/
+/*--------     2. Header         --------*/
+/*---------------------------------------*/
+@import "../scss/header/header.scss";
+@import "../scss/header/pagetitle.scss";
+/*---------------------------------------*/
+/*--------   3. Sections Layout      --------*/
+/*---------------------------------------*/
+@import "../scss/section-layout/section-title.scss";
+@import "../scss/section-layout/section-indent.scss";
+@import "../scss/section-layout/slider__default.scss";
+@import "../scss/section-layout/slider__main.scss";
+@import "../scss/section-layout/slider__carusel-gallery.scss";
+@import "../scss/section-layout/notes.scss";
+@import "../scss/section-layout/imgbox-inner.scss";
+@import "../scss/section-layout/img-label.scss";
+@import "../scss/section-layout/img-lightbox.scss";
+@import "../scss/section-layout/fullwidth-promo.scss";
+@import "../scss/section-layout/tabs.scss";
+@import "../scss/section-layout/signature.scss";
+@import "../scss/section-layout/data01.scss";
+@import "../scss/section-layout/data02.scss";
+@import "../scss/section-layout/data03.scss";
+@import "../scss/section-layout/data04.scss";
+@import "../scss/section-layout/additional.scss";
+@import "../scss/section-layout/step.scss";
+@import "../scss/section-layout/logo-list.scss";
+@import "../scss/section-layout/news-layout.scss";
+@import "../scss/section-layout/testimonials.scss";
+@import "../scss/section-layout/pagination.scss";
+@import "../scss/section-layout/rating.scss";
+@import "../scss/section-layout/gallery.scss";
+@import "../scss/section-layout/personal-02.scss";
+@import "../scss/section-layout/personal-03.scss";
+@import "../scss/section-layout/location-list.scss";
+@import "../scss/section-layout/layout01.scss";
+@import "../scss/section-layout/layout02.scss";
+@import "../scss/section-layout/layout03.scss";
+@import "../scss/section-layout/layout05.scss";
+@import "../scss/section-layout/testimonials.scss";
+@import "../scss/section-layout/coupon.scss";
+@import "../scss/section-layout/aside-layout.scss";
+@import "../scss/section-layout/promo.scss";
+@import "../scss/section-layout/social-icon.scss";
+@import "../scss/section-layout/dot-info.scss";
+@import "../scss/section-layout/accordion.scss";
+@import "../scss/section-layout/services-page.scss";
+@import "../scss/section-layout/counter.scss";
+/*---------------------------------------*/
+/*--------     4. Footer         --------*/
+/*---------------------------------------*/
+@import "../scss/footer/footer.scss";
+/*--------------------------------------*/
+/*------ 5. Additional Modules  --------*/
+/*--------------------------------------*/
+/*-------  5.1 Modal  --------*/
+@import "../scss/additional-modules/modal.scss";
+/*-------  5.1 Back To Top  --------*/
+@import "../scss/additional-modules/back_to_top.scss";
+

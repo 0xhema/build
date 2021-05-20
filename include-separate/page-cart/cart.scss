@@ -1,0 +1,138 @@
+@import "../../../node_modules/bootstrap/scss/functions.scss";
+@import "../../../node_modules/bootstrap/scss/variables.scss";
+@import "../../../node_modules/bootstrap/scss/mixins.scss";
+
+
+@import "../../scss/_variables_style";
+/*---------------------------------------*/
+/*--------       Cart Page         ------*/
+/*--------------------------------------*/
+/*
+	Cart Table 01
+*/
+.cart-table01{
+	thead,
+	tbody{
+		tr{
+			> *{
+				&:first-child{
+					padding-left: 45px;
+				}
+			}
+		}
+	}
+	thead{
+		th{
+			font-family: $default_font2;
+			color: $default_color;
+			font-weight: 800;
+			font-size: 20px;
+			line-height: 1.2;
+			padding-bottom: 18px;
+		}
+		border-bottom:2px solid $border;
+	}
+	td{
+		position: relative;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+.cart-table01__close{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: $default_color;
+	font-size: 11px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.table-product{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: center;
+	.tt-rating{
+		margin-top: 17px;
+	}
+}
+.table-product__img{
+	& + .table-product__contnt{
+		margin-left: 20px;
+	}
+}
+.cart-table__price{
+	font-family: $default_font2;
+	color: $default_color;
+	font-weight: 800;
+	font-size: 20px;
+}
+.table-product__title{
+	color: #797d82;
+	a{
+		color: #797d82;
+		transition: color .2s linear;
+		&:hover{
+			color: $default_color
+		}
+	}
+}
+
+.cart-table__row-btn{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: stretch;
+	align-items: center;
+	border-top:2px solid $border;
+	padding-top: 30px;
+	@include media-breakpoint-down(md) {
+		flex-wrap: wrap;
+		> *{
+			width: 100%;
+		}
+	}
+}
+@include media-breakpoint-down(md) {
+	.cart-table01 thead th,
+	.cart-table__price{
+		font-size: 18px;
+	}
+}
+
+/*
+	Cart Table 02
+*/
+.cart-table02{
+	width: auto;
+	tr{
+		border-bottom:2px solid $border;
+		td{
+			position: relative;
+			padding-bottom: 10px;
+			&:first-child{
+				font-size: 16px;
+				color: #797d82;
+				min-width: 286px;
+			}
+			&:not(:first-child){
+				width: 100%;
+			}
+			@include media-breakpoint-down(sm) {
+				&:first-child{
+					min-width: 140px;
+				}
+			}
+
+		}
+		&:not(:first-child){
+			td{
+				padding-top: 10px;
+			}
+		}
+	}
+}
